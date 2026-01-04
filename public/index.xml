@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erwan Dupas</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Erwan Dupas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2026 Erwan Dupas</copyright>
+    <lastBuildDate>Sat, 03 Jan 2026 22:54:28 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bienvenue</title>
+      <link>http://localhost:1313/posts/bienvenue/</link>
+      <pubDate>Sat, 03 Jan 2026 22:54:28 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bienvenue/</guid>
+      <description>&lt;p&gt;Salut ! Ceci est mon tout premier post sur mon site auto-hébergé.&#xA;J&amp;rsquo;utilise Hugo et Blowfish sous Fedora. Incroyable non?&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
