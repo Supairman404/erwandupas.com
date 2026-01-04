@@ -24,15 +24,18 @@ image = "me.jpg"
 headline = "Créateur de contenus"
 bio = "Bienvenue sur mon Hub numérique.Ici, je centralise mes contenus :)"
 
-[params.author.links]
-  [[params.author.links.linkedin]]
-    href = "https://www.linkedin.com/in/erwan-dupas/"
+[[params.author.links]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/erwan-dupas/"
 
-  [[params.author.links.youtube]]
-    href = "https://youtube.com/@toncompte"
+[[params.author.links]]
+  name = "youtube"
+  url = "https://youtube.com/@toncompte"
 
-  [[params.author.links.email]]
-    href = "mailto:eddy404@pm.me"
+[[params.author.links]]
+  name = "email"
+  url = "mailto:eddy404@pm.me"
+
 
 [params.homepage]
 layout = "profile"
