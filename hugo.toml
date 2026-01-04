@@ -1,12 +1,13 @@
-baseURL = 'https://erwandupas.com/'
-languageCode = 'fr-fr'
-defaultContentLanguage = 'fr'
-title = 'Erwan Dupas'
-theme = 'blowfish'
+baseURL = "https://erwandupas.com/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Erwan Dupas"
+theme = "blowfish"
 
-[languages.fr]
-languageName = 'Français'
-weight = 1
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
 
 [params]
 colorScheme = "blowfish"
@@ -16,9 +17,8 @@ defaultBackgroundImage = "background.jpg"
 name = "Erwan Dupas"
 image = "me.jpg"
 headline = "Créateur de contenus"
-bio = "Bienvenue sur mon Hub numérique. Ici, je centralise mes contenus :)"
+bio = "Bienvenue sur mon Hub numérique.Ici, je centralise mes contenus :)"
 
-# Correction de la syntaxe des liens pour qu'ils s'affichent bien
 [params.author.links]
 linkedin = "https://www.linkedin.com/in/erwan-dupas/"
 youtube = "https://youtube.com/@toncompte"
