@@ -1,1 +1,17 @@
-backend: name: gitea repo: Supairman/erwandupas.com # Ton nom d'utilisateur / nom du dépôt branch: main base_url: https://codeberg.org app_id: 73efbc8c-40d7-467c-8b51-1ef9e04be9dd # <--- Ton Client ID Codeberg media_folder: "static/images" # Où le CMS va stocker les images uploadées public_folder: "/images" # Comment le site va lire ces images # Configuration de l'interface collections: - name: "blog" label: "Articles" folder: "content/posts" # Où sont rangés tes fichiers Markdown create: true # Autoriser à créer des nouveaux posts slug: "{{year}}-{{month}}-{{day}}-{{slug}}" fields: - {label: "Titre", name: "title", widget: "string"} - {label: "Date de publication", name: "date", widget: "datetime"} - {label: "Description", name: "description", widget: "text"} - {label: "Tags", name: "tags", widget: "list", required: false} - {label: "Image Principale", name: "image", widget: "image", required: false} - {label: "Contenu", name: "body", widget: "markdown"}
+backend: name: gitea
+repo: Supairman/erwandupas.com
+branch: main
+base_url: https://codeberg.org
+app_id: 73efbc8c-40d7-467c-8b51-1ef9e04be9dd # <--- Ton Client ID Codeberg
+
+media_folder: "static/images" # Où le CMS va stocker les images uploadées
+public_folder: "/images" # Comment le site va lire ces images # Configuration de l'interface collections: -
+name: "blog" label: "Articles" folder: "content/posts" # Où sont rangés tes fichiers Markdown
+create: true # Autoriser à créer des nouveaux posts
+slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+fields: - {label: "Titre", name: "title", widget: "string"}
+- {label: "Date de publication", name: "date", widget: "datetime"}
+- {label: "Description", name: "description", widget: "text"}
+- {label: "Tags", name: "tags", widget: "list", required: false}
+- {label: "Image Principale", name: "image", widget: "image", required: false}
+- {label: "Contenu", name: "body", widget: "markdown"}
