@@ -1,5 +1,6 @@
 baseURL = 'https://erwandupas.com/'
 languageCode = 'fr-fr'
+defaultContentLanguage = 'fr'
 title = 'Erwan Dupas'
 theme = 'blowfish'
 
@@ -9,22 +10,21 @@ weight = 1
 
 [params]
 colorScheme = "blowfish"
-defaultBackgroundImage = "background.jpg" # Optionnel pour plus tard
+defaultBackgroundImage = "background.jpg"
 
 [params.author]
 name = "Erwan Dupas"
-image = "me.jpg" # Le nom exact de ton fichier dans /static
+image = "me.jpg"
 headline = "Créateur de contenus"
 bio = "Bienvenue sur mon Hub numérique. Ici, je centralise mes contenus :)"
 
-# Tes liens sociaux (ajoute les tiens plus tard)
-links = [
-{ linkedin = "https://www.linkedin.com/in/erwan-dupas/" },
-{ youtube = "https://youtube.com/@toncompte" },
-{ email = "mailto:eddy404@pm.me" }
-]
+# Correction de la syntaxe des liens pour qu'ils s'affichent bien
+[params.author.links]
+linkedin = "https://www.linkedin.com/in/erwan-dupas/"
+youtube = "https://youtube.com/@toncompte"
+email = "mailto:eddy404@pm.me"
 
 [params.homepage]
-layout = "profile" # C'est ça qui crée le look "Hub"
+layout = "profile"
 showRecent = true
 recentLimit = 3
